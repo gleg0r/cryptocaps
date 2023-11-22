@@ -1,10 +1,13 @@
 import React from "react";
-import style from "./home.module.scss"
-import Header from "../header/header";
+import style from "./style.module.scss"
+import Header from "../header";
 function Home() {
     return(
         <div className={style.Home}>
-            <Header/>
+            <div className={style.header}>
+                <Header/>
+            </div>
+            
         </div>
     )
 }

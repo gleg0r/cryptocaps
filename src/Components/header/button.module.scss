@@ -1,0 +1,26 @@
+.btn {
+    color: #282828;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+
+    width: 180px;
+    height: 60px;
+    padding: 9px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(140deg, #AAF97E 5.33%, #9AEC6C 131.71%);
+    border-radius: 16px;
+    outline: 0;
+    border: 0;
+
+    &:hover {
+        background: linear-gradient(140deg, #F1FDEA 5.33%, #9AEC6C 131.71%);
+    }
+}
+
