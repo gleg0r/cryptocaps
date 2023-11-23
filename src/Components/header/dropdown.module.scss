@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .DropDown {
     display: flex;
     justify-content: center;
@@ -15,27 +17,27 @@
         &:first-child {
             padding-bottom: 10px;
         }
-       // display: none;
+        display: none;
     }
     &__item {
-        color: #FDFAFF;
+        color: $white;
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 26px; /* 130% */
         cursor: pointer;
-        background-color: #282828;
+        background-color: $gray;
         padding-left: 6px;
         padding-right: 28px;
         width: 33px;
         &:hover {
             border-radius: 2px;
-            background: var(--linear-purple, linear-gradient(180deg, #8A2DE7 0%, #5659FE 100%));
+            background: $purple;
         }
     }
     &__selected {
-        color: #FDFAFF;
+        color: $white;
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;

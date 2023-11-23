@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .navigation{
     display: flex;
     width: 1280px;
@@ -22,7 +24,7 @@
         }
     }
     &__link {
-        color:  #FDFAFF;
+        color:  $white;
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -43,7 +45,7 @@
 }
 
 .active__link {
-    color: linear-gradient(180deg, #8A2DE7 0%, #5659FE 100%);
+    color: $purple;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;

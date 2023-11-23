@@ -1,5 +1,7 @@
+@import '../../variables.scss';
+
 .btn {
-    color: #282828;
+    color: $gray;
     text-align: center;
     font-family: Roboto;
     font-size: 24px;
@@ -14,13 +16,13 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background: linear-gradient(140deg, #AAF97E 5.33%, #9AEC6C 131.71%);
+    background: $green;
     border-radius: 16px;
     outline: 0;
     border: 0;
 
     &:hover {
-        background: linear-gradient(140deg, #F1FDEA 5.33%, #9AEC6C 131.71%);
+        background: $green-light;
     }
 }
 

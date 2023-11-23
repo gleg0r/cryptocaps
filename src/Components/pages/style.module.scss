@@ -1,13 +1,17 @@
+@import '../../variables.scss';
+
 .Home {
-    background-color: #282828;
-    background-image: url("../home/img/background.svg");
+    background-color: $gray;
+    
 }
 
 .Quests, .Rating {
-    background-color: #171717;
+    background-color: $black;
 }
 
-
+.wrapper {
+    background-image: url("../home/img/background.svg");
+}
 
 .header {
     display: flex;
