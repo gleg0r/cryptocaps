@@ -1,29 +1,51 @@
-.dropdown {
-    background-color: transparent;
-    color: #FDFAFF;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; 
-    border: 0;
+.DropDown {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 57px;
     cursor: pointer;
-    width: 60px;
-    appearance: none;
-    -webkit-appearance: none; /* Safari и Chrome */
-    -moz-appearance: none; /* Mozilla */
-    -ms-appearance: none;
-    background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' width='12' height='6' viewBox='0 0 12 6' fill='none'><path d='M6 6L0.803848 0L11.1962 0L6 6Z' fill='%23FDFAFF'/></svg>");
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: 46px;
-    &:active {
-        border: 0;
-        outline: 0;
-        text-decoration: none;
+    &__list {
+        
+        position: absolute;
+        top: 25%;
+        right: 53%;
+        list-style-type: none;
+        width: 33px;
+        &:first-child {
+            padding-bottom: 10px;
+        }
+       // display: none;
     }
-    
-}
-option {
-    background-color: #282828;
+    &__item {
+        color: #FDFAFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        cursor: pointer;
+        background-color: #282828;
+        padding-left: 6px;
+        padding-right: 28px;
+        width: 33px;
+        &:hover {
+            border-radius: 2px;
+            background: var(--linear-purple, linear-gradient(180deg, #8A2DE7 0%, #5659FE 100%));
+        }
+    }
+    &__selected {
+        color: #FDFAFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        margin-top: 0;
+    }
+    &__arrow {
+        position: absolute;
+        right: 0;
+        top: 24%;
+    }
 }
