@@ -1,0 +1,71 @@
+@import '../../../variables.scss';
+
+.pvp_card {
+    display: flex;
+}
+
+.title {
+    position: absolute;
+    top: 58px;
+    left: 33px;
+    z-index: 2;
+    color: $gray-card;
+    margin: 0;
+
+    font-family: Russo One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+
+    &_middle {
+        bottom: 42px;
+        left: 29px;
+        position: absolute;
+        z-index: 2;
+        color: $gray-card;
+        margin: 0;
+        width: 340px;
+        font-family: Russo One;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+    }
+}
+
+.container {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 617px;
+    margin-left: 37px;
+
+    &:nth-child(1) {
+        margin-top: 7px;
+    }
+
+    &:nth-child(2) {
+        margin-top: -29px;
+        margin-left: 40px;
+    }
+
+    &:nth-child(3) {
+        margin-left: 41px;
+        margin-top: 7px;
+    }
+    
+}
+
+.phone_img {
+    position: absolute;
+    top: 150px;
+    left: 32px;
+}
+
+.hands {
+    position: absolute;
+    top: 36px;
+    left: -13px;
+}
+

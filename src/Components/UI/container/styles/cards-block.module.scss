@@ -1,0 +1,36 @@
+@import '../../../../variables.scss';
+
+.pvp {
+    &__title {
+        color: #FFF;
+        font-family: Russo One;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 74px; 
+        text-transform: uppercase;
+        margin: 0;
+        margin-left: 40px;
+    }
+    &__desc {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+        margin: 0;
+        margin-top: 8px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    &__cards {
+        margin-top: 77px;
+        margin-right: 24px;
+
+    }
+}
+
+.pve_block {
+    margin-top: 100px;
+}

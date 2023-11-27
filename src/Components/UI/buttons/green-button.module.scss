@@ -1,0 +1,28 @@
+@import '../../../variables.scss';
+
+.btn {
+    color: $gray;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+    position: relative;
+    width: 180px;
+
+    padding: 9px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: $green;
+    border-radius: 16px;
+    outline: 0;
+    border: 0;
+    z-index: 4;
+    &:hover {
+        background: $green-light;
+    }
+}
+

@@ -2,6 +2,9 @@
 
 .Home {
     background-color: $gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -10,7 +13,10 @@
 }
 
 .wrapper {
-    background-image: url("../home/img/background.svg");
+    background-image: url("../UI/img/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 .header {

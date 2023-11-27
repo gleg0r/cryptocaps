@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.module.scss"
-import Header from "../header";
+import Header from "../UI/container/header";
 
 function Quests() {
     

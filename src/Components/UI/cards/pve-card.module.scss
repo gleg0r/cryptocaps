@@ -1,0 +1,73 @@
+@import '../../../variables.scss';
+
+.pve_card {
+    display: flex;
+}
+
+.title {
+    position: absolute;
+    bottom: 64px;
+    left: 32px;
+    z-index: 2;
+    color: $gray-card;
+    margin: 0;
+
+    font-family: Russo One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+
+    &_middle {
+        bottom: 96px;
+        left: 33px;
+        position: absolute;
+        z-index: 2;
+        color: $gray-card;
+        margin: 0;
+        width: 340px;
+        font-family: Russo One;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+    }
+}
+
+.container {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 617px;
+    margin-left: 37px;
+    &:nth-child(1) {
+        margin-top: 7px;
+    }
+    &:nth-child(2) {
+        margin-top: -29px;
+        margin-left: 40px;
+    }
+    &:nth-child(3) {
+        margin-left: 41px;
+        margin-top: 7px;
+    }
+}
+
+.caps {
+    position: absolute;
+    top: -49px;
+    left: -108px;
+    &_nft {
+        position: absolute;
+        top: -64px;
+        left: -57px; 
+    }
+}
+
+.ball {
+    position: absolute;
+    top: 63px;
+    left: 5px;
+}
+
+

@@ -1,8 +1,9 @@
 import React from "react";
 import style from "./style.module.scss"
-import Header from "../header";
-import MainBlock from "../home/components/main_block";
-import MascotBlock from "../home/components/mascot_block";
+import Header from "../UI/container/header";
+import MainBlock from "../UI/container/home/main-block";
+import MascotBlock from "../UI/container/home/mascot-block";
+import CardsBlock from "../UI/container/home/cards";
 
 function Home() {
     return(
@@ -16,7 +17,7 @@ function Home() {
                 </div>
             </div>
             <MascotBlock />
-            
+            <CardsBlock />
         </div>
     )
 }
