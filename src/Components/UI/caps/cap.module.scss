@@ -1,0 +1,104 @@
+@import "../../../variables.scss";
+
+.cap_card {
+    width: 440px;
+    height: 855px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: $white;
+    font-family: Russo One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; 
+    margin: 0;
+    padding: 0;
+    margin-bottom: 17px;
+}
+
+.desc {
+    margin: 0;
+    padding: 0;
+    background: url('../img/polygon_cap.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 288px;
+    height: 100px;
+    margin-right: 5px;
+    padding-bottom: 17px;
+
+}
+
+.percent {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-top: 12px;
+    background: $green;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chance {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 17px;
+
+    background: $green;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img {
+    margin-right: 3px;
+    
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    text-align: center;
+
+    background: var(--linear-green, linear-gradient(140deg, #AAF97E 5.33%, #9AEC6C 131.71%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border: 4px solid #AAF97E;
+    border-radius: 30px;
+    margin: 0;
+    //padding: 12px 46px;
+    margin-right: 2px;
+    &_theme {
+        margin: 0;
+        padding: 0;
+        margin-right: 5px;
+    }
+    &_count {
+        margin: 0;
+        padding: 0;
+    }
+}

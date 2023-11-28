@@ -4,6 +4,9 @@ import Header from "../UI/container/header";
 import MainBlock from "../UI/container/home/main-block";
 import MascotBlock from "../UI/container/home/mascot-block";
 import CardsBlock from "../UI/container/home/cards";
+import CapsBlock from "../UI/container/home/caps-block";
+import FeatureBlock from "../UI/container/home/features";
+
 
 function Home() {
     return(
@@ -18,6 +21,11 @@ function Home() {
             </div>
             <MascotBlock />
             <CardsBlock />
+            <div className={style.wrap}>
+                <CapsBlock />
+                <FeatureBlock />
+            </div>
+
         </div>
     )
 }

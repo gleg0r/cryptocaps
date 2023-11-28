@@ -1,0 +1,44 @@
+@import '../../../variables.scss';
+
+.card {
+    width: 400px;
+    height: 400px;
+
+    border-radius: 46px;
+    border: 1px solid var(--gray-bottom, #787C7F);
+
+}
+
+.title {
+    color: $white;
+    text-align: center;
+    font-family: Russo One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 116.667% */
+    margin: 0;
+    padding: 0;
+}
+
+.desc {
+    color: $white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+
+    width: 310px;
+    margin: 0;
+    padding: 0;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+    margin-left: 94px;
+}

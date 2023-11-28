@@ -8,7 +8,7 @@ import GreenBtn from "../buttons/green-btn";
 function Header() {
 
     return(
-        <div 
+        <header 
             className={style.navigation}
         >
             <nav className={style.navigation__nav}>
@@ -52,7 +52,7 @@ function Header() {
                 
                 
             </nav>
-        </div>
+        </header>
     );
 }
 
