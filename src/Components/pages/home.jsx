@@ -6,7 +6,7 @@ import MascotBlock from "../UI/container/home/mascot-block";
 import CardsBlock from "../UI/container/home/cards";
 import CapsBlock from "../UI/container/home/caps-block";
 import FeatureBlock from "../UI/container/home/features";
-
+import QuestsBlock from "../UI/container/home/quests-block";
 
 function Home() {
     return(
@@ -25,7 +25,7 @@ function Home() {
                 <CapsBlock />
                 <FeatureBlock />
             </div>
-
+            <QuestsBlock/>
         </div>
     )
 }
