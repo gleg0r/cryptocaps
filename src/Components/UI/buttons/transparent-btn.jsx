@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./transparent-btn.module.scss"
 
-function TransparentBtn({text}) {
+function TransparentBtn({text, width, height, size, weight, lHeight, padding, radius }) {
     return(
         <div>
-            <button className={style.download_btn}>{text}</button>
+            <button style={{width: width, height: height, fontSize: size, fontWeight: weight, lineHeight: lHeight, padding: padding, borderRadius: radius}} className={style.download_btn}>{text}</button>
         </div>
 
     )

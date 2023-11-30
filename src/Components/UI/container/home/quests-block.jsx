@@ -7,8 +7,13 @@ function QuestsBlock() {
     return(
         <div className={style.quests}> 
             <h3 className={style.title}>Квесты</h3>
-            <Event />
-            <TopQuests />
+            <div>
+                <Event /> 
+            </div>
+            <div className={style.top}>
+                <TopQuests />
+            </div>
+            
         </div>
     )
 }

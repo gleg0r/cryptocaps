@@ -1,0 +1,62 @@
+@import '../../../../variables.scss';
+
+.rating {
+    width: 100%;
+    margin-top: 140px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: $green;
+    background-size:cover ;
+}
+
+.text {
+    width: 483px;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 295px;
+    margin-right: 30px;
+}
+
+.title {
+    color: $black;
+    font-family: Russo One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 116.667% */
+    margin: 0;
+    padding: 0;
+    margin-top: 37px;
+    margin-left: 33px;
+}
+
+.desc {
+    color: $black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin: 0;
+    padding: 0;
+    width: 483px;
+    height: 96px;
+    margin-top: 15px;
+    margin-left: 33px;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+    width: 1247px;
+}
+
+.btn {
+    margin-top: 45px;
+    margin-left: 33px;
+}

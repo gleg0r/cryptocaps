@@ -14,7 +14,15 @@ function MainBlock() {
             </div>
             <div className={style.main__btns}>
                 <div className={style.main__download_btn}>
-                     <TransparentBtn text ={'Скачать приложение'} />
+                    <TransparentBtn
+                        text ={'Скачать приложение'} 
+                        width={'303px'}
+                        height={'68px'}
+                        size={'24px'}
+                        weight={'700px'}
+                        lHeight={'32px'}
+                        padding={"18px 28px"}
+                    />
                 </div>
                 <div>
                     <PurpleBtn text ={'Начать приключение'} />

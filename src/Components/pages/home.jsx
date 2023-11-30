@@ -7,6 +7,7 @@ import CardsBlock from "../UI/container/home/cards";
 import CapsBlock from "../UI/container/home/caps-block";
 import FeatureBlock from "../UI/container/home/features";
 import QuestsBlock from "../UI/container/home/quests-block";
+import RatingBlock from "../UI/container/rating-block";
 
 function Home() {
     return(
@@ -25,7 +26,8 @@ function Home() {
                 <CapsBlock />
                 <FeatureBlock />
             </div>
-            <QuestsBlock/>
+            <QuestsBlock />
+            <RatingBlock />
         </div>
     )
 }

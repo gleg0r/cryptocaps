@@ -5,7 +5,7 @@
     height: 576px;
     background-repeat: no-repeat;
     background-size: cover;
-
+    cursor: pointer;
     position: relative;
 
 
@@ -26,15 +26,22 @@
     position: relative;
     &_title {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -12px;
+        left: 57px;    
         z-index: 1;
+
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
     }
     &_bg {
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 0;
+        z-index: 1;
         transition: 0.3s;
        // &:hover {
        //     filter: drop-shadow(0px 0px 10.64935px #8531E9);
@@ -59,5 +66,168 @@
         font-style: normal;
         font-weight: 700;
         line-height: 40px; /* 142.857% */
+
+        margin-top: 23px;
+        margin-left: 2px;
+    }
+
+    &_desc {
+        color: $gray-light;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+
+        margin-top: -28px;
+        margin-left: 2px;
+    }
+}
+
+.img {
+    transition: 0.3s;
+    margin-top: -11px;
+}
+
+.footer {
+    width: 360px;
+    display: flex;
+    justify-content: space-around;
+
+    
+
+    margin-top: 50px;
+    margin-left: -3px;
+
+    &_count {
+        display: flex;
+        width: 146px;
+        justify-content: space-between;
+    }
+    &_pacman {
+        display: flex;
+
+        margin-right: 12px;
+        & p {
+            padding: 0;
+            margin: 0;
+            margin-top: 9px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 130% */
+        
+            color: #5f1ed8;
+
+        }
+        & img {
+            padding: 0;
+            margin: 0;
+            width: 24px;
+            height: 24px;
+            margin-right: 7px;
+            margin-left: 11px;
+            margin-top: 8px;
+        }
+    } 
+    &_person {
+        display: flex;
+        width: 58px;
+        margin-top: 9px;
+    
+        & p {
+            padding: 0;
+            margin: 0;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 130% */
+        
+            color: #5f1ed8;
+
+        }
+        & img {
+            padding: 0;
+            margin: 0;
+            width: 22px;
+            height: 22px;
+            margin-left: -1px;
+            margin-right: 3px;
+        }
+    }
+    &_medal {
+        display: flex;
+        width: 75px;
+        height: 49px;    
+        padding: 6px 10px;
+       // position: relative;
+        margin: 0%;
+        margin-left: 73px;
+        & p {
+            padding: 0;
+            margin: 0;
+            margin-top: 17px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 130% */
+        
+            color: #5f1ed8;
+
+        }
+        & img {
+            padding: 0;
+            margin: 0;
+            width: 24px;
+            height: 24px;
+            margin-top: 17px;
+            margin-left: 4px;
+            margin-right: 8px;
+        }
+    }
+}
+
+.border {
+    &_medal {
+        width: 93px;
+        height: 62px;
+        border: 3px solid #5f1ed8;
+        margin: 0;
+        border-radius: 8px;
+        position: absolute;
+        right: 31px;
+        bottom: 56px;
+        &-green {
+            border: 3px solid #AAF97E;
+        }
+    }
+    &_person {
+        position: absolute;
+        padding: 6px 10px;
+        width: 46px;
+        height: 23px;
+        border-radius: 8px;
+        border: 3px solid  #5f1ed8;
+        left: 107px;
+        bottom: 83px;
+        &-green {
+            border: 3px solid #AAF97E;
+        }
+    }
+    &_pacman {
+        position: absolute;
+        left: 31px;
+        bottom: 84px;
+        padding: 6px 10px;
+        width: 40px;
+        height: 22px;
+        border-radius: 8px;
+        border: 3px solid #5f1ed8;
+        &-green {
+            border: 3px solid #AAF97E;
+        }
     }
 }
