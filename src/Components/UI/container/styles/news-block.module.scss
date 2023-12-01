@@ -1,0 +1,589 @@
+@import "../../../../variables.scss";
+
+.news {
+    width: 1280px;
+    height: 2000px;
+    margin-top: 138px;
+    margin-left: 9px;
+}
+
+.sticker {
+    background: url("../../img/news_header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 281px;
+    height: 228px;
+    margin-bottom: 11px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--gray, #282828);
+    &_title {
+        color: $white;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 142.857% */
+        margin-left: 81px;
+        margin-top: 15px;
+    }
+    &_dots {
+        width: 96px;
+        height: 24px;
+        margin-top: 21px;
+        margin-left: 40px;
+    }
+}
+
+.main {
+    display: flex;
+    height: 1601px;
+    position: relative;
+    &_scroll {
+        position: absolute;
+        top: 8px;
+        right: -2px;
+        height: 1652px;
+        width: 70px;
+        border-radius: 16px;
+        border: 1px solid $white;
+        background: $gray;
+        
+    }
+
+}
+
+.mascot {
+    width: 1054px;
+    height: 589px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 46px;
+    border: 2px solid $white;
+    background: $gray;
+    position: absolute;
+    z-index: 4;
+    top: 65px;
+    right: 114px;
+    transition: 0.8s;
+    &:hover {
+        transform: scale(1.05);
+        z-index: 5;
+    }
+    &_header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        margin-top: 21px;
+        border-bottom: 2px solid $white;
+        padding-bottom: 12px;
+    }
+
+    &_title {
+        color: $white;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 142.857% */
+        margin: 0;
+        padding: 0; 
+        margin-right: 55px;
+
+    }
+    &_dots {
+        margin-top: -10px;
+        margin-left: 52px;
+    }
+    &_arrows {
+        margin-top: -6px;
+        margin-right: 37px;
+    }
+
+    &_main {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 28px;
+    }
+    &_img {
+        position: absolute;
+        bottom: 2px;
+        right: -4px;
+    }
+    &_star {
+        position: absolute;
+        top: 109px;
+        right: 372px;
+    }
+}
+
+.text {
+    width: 550px;
+    height: 316px;
+    margin-left: -73px;
+    &_title {
+        color: $white;
+        font-family: Russo One;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 76px; /* 118.75% */
+        margin: 0;
+        padding: 0;
+        & span {
+            background: var(--linear-green, linear-gradient(140deg, #AAF97E 5.33%, #9AEC6C 131.71%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    &_desc {
+        color: $white;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+    }
+}
+
+.nft {
+    width: 614px;
+    height: 582px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 46px;
+    border: 2px solid $gray-bottom;
+    background: $light-gold;
+    position: absolute;
+    z-index: 3;
+    top: 467px;
+    left: 2px;
+    transition: 0.8s;
+    &:hover {
+        z-index: 5;
+        transform: scale(1.05);
+    }
+    &_header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        border-bottom: 2px solid $gray-bottom;
+        padding-bottom: 9px;
+    }
+
+    &_title {
+        color: $black;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 142.857% */
+        margin: 0;
+        padding: 0; 
+        margin-right: 61px;
+        margin-top: 22px;
+
+    }
+
+    &_text {
+        width: 519px;
+        height: 228px;
+        margin: 0;
+        padding: 0;
+        margin-top: 12px;
+        margin-left: 4px;
+    }
+
+    &_head {
+        width: 519px;
+        background: $purple;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;    
+
+        /* website/Russo One H3 */
+        font-family: Russo One;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px; /* 116.667% */
+
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    &_desc {
+        color: $black;
+        /* website/Roboto  title H2 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+        margin: 0;
+        padding: 0;
+        padding-bottom: 8px;
+    }
+
+    &_dots {
+        margin-top: 5px;
+        margin-left: 41px;
+    }
+    &_arrows {
+        margin-top: 17px;
+        margin-right: 24px;
+    }
+
+    &_main {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 28px;
+    }
+    &_sticker{
+        position: absolute;
+        bottom: 109px;
+        left: -2px;
+    }
+    &_caps {
+        position: absolute;
+        bottom: -2px;
+        right: -4px;
+    }
+}
+
+.quests {
+    width: 508px;
+    height: 1095px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 16px;
+    border: 2px solid $gray-bottom;
+    background: $green-light;
+    position: absolute;
+    z-index: 1;
+    top: 507px;
+    right: 107px;
+    transition: 0.8s;
+    &:hover {
+        z-index: 5;
+        transform: scale(1.05);
+    }
+    &_header {
+        height: 59px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        border-radius: 16px 16px 0px 0px;
+        border-bottom: 2px solid $gray-bottom;
+        background: $white;
+    }
+
+    &_title {
+        color: $black;
+        text-align: left;
+        font-family: Russo One;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px; /* 142.857% */
+        margin: 0;
+        padding: 0; 
+        margin-bottom: 4px;
+        margin-left: 11px;
+    }
+    &_new {
+        display: flex;
+    }
+    &_text {
+        width: 519px;
+        height: 228px;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 42px;
+        &_middle {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+    }
+    &_icon {
+        margin-top: -8px;
+        margin-left: 10px;
+        margin-right: 7px;
+    }
+
+    &_head {
+        width: 440px;
+        color: $black;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 133.333% */
+
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        margin-top: 8px;
+    }
+    &_desc {
+        color: $black;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        margin: 0;
+        padding: 0;
+        margin-top: -7px;
+        margin-left: 12px;
+    }
+
+    &_dots {
+        margin-top: 5px;
+        margin-left: 41px;
+    }
+    &_arrows {
+        margin-top: 17px;
+        margin-right: 24px;
+    }
+
+    &_main {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 28px;
+    }
+    &_footer{
+        position: absolute;
+        bottom: -3px;
+    }
+}
+
+.mobile {
+    width: 722px;
+    height: 557px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 32px;
+    border: 2px solid $white;
+    background: $gray;
+    position: absolute;
+    z-index: 2;
+    bottom: -4px;
+    left: 40px;
+    transition: 0.8s;
+    &:hover {
+        z-index: 5;
+        transform: scale(1.05);
+    }
+    &_header {
+        display: flex;
+        justify-content: center;
+
+        margin: 0;
+        padding: 0;
+        margin-top: 19px;
+
+        padding-bottom: 12px;
+    }
+
+    &_wrapper {
+        width: 690px;
+        height: 72px;
+        background: $purple;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        border-radius: 18px;
+        margin-right: 2px;
+    }
+
+    &_title {
+        color: $white;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; 
+        margin: 0;
+        padding: 0; 
+        margin-right: 86px;
+        margin-top: 20px;
+
+    }
+    &_dots {
+        width: 96px;
+        margin-top: -2px;
+        margin-left: 42px;
+    }
+    &_close {
+        width: 32px;
+        margin-top: 0px;
+        margin-right: 22px;
+    }
+
+    &_main {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
+
+    &_text {
+        margin: 0;
+        padding: 0;
+        margin-top: -14px;
+        margin-left: -27px;
+    }
+
+    &_head {
+        background: var(--linear-green, linear-gradient(140deg, #AAF97E 5.33%, #9AEC6C 131.71%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        font-family: Russo One;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    &_desc {
+        color: $white;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+    &_btn {
+        margin-top: 37px;
+    }
+    &_img {
+        position: absolute;
+        bottom: 0px;
+        right: 31px;
+    }
+}
+
+.partner {
+    margin-top: 150px;
+    width: 616px;
+    height: 476px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 1px solid $gray;
+    background: $light-gold;
+    position: absolute;
+    z-index: 3;
+    right: 105px;
+    bottom: -7px;
+    transition: 0.8s;
+    &:hover {
+        transform: scale(1.05);
+    }
+    &_wrapper {
+        position: relative;
+        width: 616px;
+        height: 476px;
+    }
+    &_wow {
+        position: absolute;
+        right: 3px;
+        top: -113px;
+    }
+
+    &_love {
+        position: absolute;
+        bottom: 87px;
+        left: 57px;
+    }
+    &_title {
+        background: $purple;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        font-family: Russo One;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px; /* 116.667% */
+        margin: 0;
+        margin-top: 60px;
+        margin-left: 57px;
+    }
+    &_desc {
+        color: $black;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 57px;
+    }
+    &_purple {
+        background: var(--linear-purple, linear-gradient(180deg, #8A2DE7 0%, #5659FE 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    height: 1527px;
+    border-radius: 16px;
+    &_bar {
+        margin-top: 9px;
+        width: 54px;
+        height: 751px;
+        border-radius: 16px;
+        background: $green;
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0;
+    }
+    &_up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 58px;
+        border-bottom: 1px solid $white;
+    }
+    &_down {
+        position: absolute;
+        z-index: 5;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 58px;
+        border-top: 1px solid $white;
+    }
+}

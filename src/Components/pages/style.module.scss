@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 
 .Home {
-    background-color: $gray;
+    background-color: $black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,4 +34,11 @@
     justify-content: center;
     margin-left: 50px;
     
+}
+
+.lights {
+    width: 100%;
+    background-image: url('../UI/img/downlaod_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
