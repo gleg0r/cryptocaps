@@ -1,14 +1,13 @@
 @import '../../variables.scss';
 
 .Home {
-    background-color: $black;
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 
-.Quests, .Rating {
+.Home, .quests, .Rating {
     background-color: $black;
 }
 
@@ -37,8 +36,44 @@
 }
 
 .lights {
+    display: flex;
+    justify-content: center;
     width: 100%;
     background-image: url('../UI/img/downlaod_bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.quests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_main {
+        margin-top: 70px;
+    }
+    &_event {
+        display: flex;
+        justify-content: center;
+        margin-left: 4px;
+    }
+    &_top{
+        display: flex;
+        justify-content: center;
+        margin-top: -2px;
+        margin-left: 4px;
+    }
+    &_rating {
+        width: 1920px;
+        height: 537px;
+        background-size: cover;
+    }
+}
+
+.footer {
+    width: 100%;
+}
+
+.Video {
+    overflow-y: hidden;
 }

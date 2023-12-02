@@ -15,28 +15,28 @@ function Header() {
                 <div 
                     className={style.navigation__logo}
                 >   
-                    <NavLink to="/">
+                    <NavLink to="/home">
                         <img src={logo} alt="logo" />
                     </NavLink>
                 </div>
                 <ul className={style.navigation__links}>
                     <li>
-                        <NavLink    className={({isActive}) => (isActive? style.active__link : style.navigation__link)} to="/quests">
+                        <NavLink    className={style.navigation__link} to="/quests">
                             Квесты
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive}) => (isActive? style.active__link : style.navigation__link)} to="/news">
+                        <NavLink className={style.navigation__link} to="/news">
                             Новости
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive}) => (isActive? style.active__link : style.navigation__link)} to="/cards">
+                        <NavLink className={style.navigation__link} to="/cards">
                             Фишки
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive}) => (isActive? style.active__link : style.navigation__link)} to="/rating">
+                        <NavLink className={style.navigation__link} to="/rating">
                             Рейтинг
                         </NavLink>
                     </li>

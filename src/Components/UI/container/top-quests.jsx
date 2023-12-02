@@ -45,7 +45,7 @@ function Event() {
                         idPerson={"leftPersonTop"}
                         idMedal={"leftMedalTop"}
                         title={'Охота за токенами'}
-                        desc={'Mirror'}
+                        desc={'CryptoCaps'}
                         img={santaLeft}
                         bg={bgGreen}
                         headerBg={greenHeader}
@@ -66,7 +66,7 @@ function Event() {
                         idPerson={"middlePersonTop"}
                         idMedal={"middleMedalTop"}
                         title={'Мастер NFT'}
-                        desc={'Dolomite'}
+                        desc={'Ekaterina Soboleva'}
                         img={santaMiddle}
                         bg={bgPurple}
                         headerBg={purpleHeader}
@@ -87,7 +87,7 @@ function Event() {
                         idPerson={"rightPersonTop"}
                         idMedal={"rightMedalTop"}
                         title={'Криптоимперия'}
-                        desc={'CryptoCaps'}
+                        desc={'Valeri'}
                         img={santaRight}
                         bg={bgPurple}
                         headerBg={purpleHeader}

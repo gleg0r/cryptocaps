@@ -10,8 +10,14 @@ import QuestsBlock from "../UI/container/home/quests-block";
 import RatingBlock from "../UI/container/rating-block";
 import NewsBlock from "../UI/container/home/news-block";
 import DownloadBlock from "../UI/container/home/download-block";
+import Footer from "../UI/container/footer";
 
 function Home() {
+
+    document.body.style.overflow="auto";
+    document.body.style.overflowX="hidden"
+;
+
     return(
         <div className={style.Home}>
             <div className={style.wrapper}>
@@ -27,7 +33,7 @@ function Home() {
             <div className={style.wrap}>
                 <CapsBlock />
                 <FeatureBlock />
-
+                
             </div>
             <QuestsBlock />
             <RatingBlock />
@@ -35,7 +41,7 @@ function Home() {
             <div className={style.lights}>
                 <DownloadBlock />
             </div>
-                
+            <Footer />    
         </div>
     )
 }

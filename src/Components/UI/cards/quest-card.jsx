@@ -14,13 +14,13 @@ function QuestCard({ title, desc, img, bg, headerBg, colorShadow, idPic, idBg, i
         const person = document.getElementById(idPerson)
         const medal = document.getElementById(idMedal)
         if(hover === false) {
+
             bgCard.style.filter = colorShadow
             bgHeader.style.filter = colorShadow
             picture.style.filter = colorShadow
             pacman.style.filter = colorShadow
             person.style.filter = colorShadow
             medal.style.filter = colorShadow
-            
             setHover(true)
         } else {
             bgCard.style.filter = "none"
@@ -52,6 +52,7 @@ function QuestCard({ title, desc, img, bg, headerBg, colorShadow, idPic, idBg, i
             pacmanColor.current.style.color = "#AAF97E";
             pacmanImg.current.style.width = "20";
             pacmanImg.current.style.height = "30";
+            
         }
     })
 

@@ -45,7 +45,7 @@ function Event() {
                         idPerson={"leftPerson"}
                         idMedal={"leftMedal"}
                         title={'Мастерская Санты'}
-                        desc={'CryptoCaps'}
+                        desc={'Egor Voronin'}
                         img={santaLeft}
                         bg={bgPurple}
                         headerBg={purpleHeader}
@@ -66,7 +66,7 @@ function Event() {
                         idPerson={"middlePerson"}
                         idMedal={"middleMedal"}
                         title={'Рождественские тайны'}
-                        desc={'PancakeSwap'}
+                        desc={'Skillfactory'}
                         img={santaMiddle}
                         bg={bgPurple}
                         headerBg={purpleHeader}

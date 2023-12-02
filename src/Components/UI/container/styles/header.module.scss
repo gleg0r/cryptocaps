@@ -3,7 +3,9 @@
 .navigation{
     display: flex;
     width: 1280px;
-    
+    margin-top: -38px;
+    margin-left: -5px;
+    margin-bottom: 40px;
     &__nav {
         display: flex;
         justify-content: center;
@@ -42,14 +44,4 @@
         justify-content: center;
         margin-top: 2px;
     }
-}
-
-.active__link {
-    color: $purple;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    text-decoration: none;
 }
