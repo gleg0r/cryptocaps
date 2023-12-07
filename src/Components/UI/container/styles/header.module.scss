@@ -33,6 +33,12 @@
         font-weight: 400;
         line-height: 26px;
         text-decoration: none;
+        &:hover {
+            background: linear-gradient(180deg, #8A2DE7 0%, #5659FE 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
     &__dropdown {
         margin-top: 19px;

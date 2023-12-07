@@ -4,8 +4,8 @@ import style from "./styles/video.module.scss"
 
 function VideoPage() {
     return (
-        <video className={style.video}  autoPlay muted>
-            <source src={video} />
+        <video className={style.video} autoPlay muted>
+            <source src={video}/>
         </video>
     )
 }

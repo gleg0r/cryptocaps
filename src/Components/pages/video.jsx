@@ -13,7 +13,7 @@ function Video() {
 
     return (
         <div className={style.Video} onClick={linkToHome}>
-            <VideoPage/>
+            Здесь находиться начальная страница с вашим видео, само видео на гитхаб не загружал, поэтому этот блок бы не работал
         </div>
     )
 }
