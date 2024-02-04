@@ -10,10 +10,6 @@ import { useEffect } from 'react';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Video />
-  },
-  {
-    path: "/home",
     element: <Home />
   },
   {

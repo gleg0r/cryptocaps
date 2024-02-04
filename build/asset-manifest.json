@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cryptocaps/static/css/main.739670c5.css",
-    "main.js": "/cryptocaps/static/js/main.ed073051.js",
+    "main.js": "/cryptocaps/static/js/main.7ae9484e.js",
     "static/js/787.ac7632ef.chunk.js": "/cryptocaps/static/js/787.ac7632ef.chunk.js",
     "static/media/trailler1_1.mp4": "/cryptocaps/static/media/trailler1_1.f7c7d869068e0327bfb0.mp4",
     "static/media/common_cap.svg": "/cryptocaps/static/media/common_cap.2cbf6aa23fd789830e0ac962980aa8fb.svg",
@@ -90,11 +90,11 @@
     "static/media/dots_black.svg": "/cryptocaps/static/media/dots_black.95800ac6aefab88556b61627799e675f.svg",
     "static/media/dots_white.svg": "/cryptocaps/static/media/dots_white.3859b8036857ab45037f9a5e6e2c92bc.svg",
     "main.739670c5.css.map": "/cryptocaps/static/css/main.739670c5.css.map",
-    "main.ed073051.js.map": "/cryptocaps/static/js/main.ed073051.js.map",
+    "main.7ae9484e.js.map": "/cryptocaps/static/js/main.7ae9484e.js.map",
     "787.ac7632ef.chunk.js.map": "/cryptocaps/static/js/787.ac7632ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.739670c5.css",
-    "static/js/main.ed073051.js"
+    "static/js/main.7ae9484e.js"
   ]
 }
