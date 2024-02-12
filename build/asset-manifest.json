@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/cryptocaps/static/css/main.739670c5.css",
-    "main.js": "/cryptocaps/static/js/main.7ae9484e.js",
+    "main.css": "/cryptocaps/static/css/main.99f64d61.css",
+    "main.js": "/cryptocaps/static/js/main.277f4109.js",
     "static/js/787.ac7632ef.chunk.js": "/cryptocaps/static/js/787.ac7632ef.chunk.js",
-    "static/media/trailler1_1.mp4": "/cryptocaps/static/media/trailler1_1.f7c7d869068e0327bfb0.mp4",
     "static/media/common_cap.svg": "/cryptocaps/static/media/common_cap.2cbf6aa23fd789830e0ac962980aa8fb.svg",
     "static/media/upped_cap.svg": "/cryptocaps/static/media/upped_cap.faf74d94fa2b0354afc95df64ca6d4fd.svg",
     "static/media/background_2-block.png": "/cryptocaps/static/media/background_2-block.21114b49213af8de45e3.png",
@@ -59,7 +58,6 @@
     "static/media/purple_bg_quest.svg": "/cryptocaps/static/media/purple_bg_quest.d78981b4c581d955250d7bdb227df0ff.svg",
     "static/media/discord.svg": "/cryptocaps/static/media/discord.f44b04407bd095723cbd7f28fffd960d.svg",
     "static/media/alien.svg": "/cryptocaps/static/media/alien.8888ea4c8a0ef2b1fa546b256618ae23.svg",
-    "static/media/skip.svg": "/cryptocaps/static/media/skip.fd10d900115f87f70688.svg",
     "static/media/green_person.svg": "/cryptocaps/static/media/green_person.92ef1b66728007986e0f63b747e89c69.svg",
     "static/media/person.svg": "/cryptocaps/static/media/person.1a459b989548d1b99d4eb8d07aa3311c.svg",
     "static/media/green_pacman.svg": "/cryptocaps/static/media/green_pacman.bcf583906180d9f9d5f19d7c51e5bafd.svg",
@@ -89,12 +87,12 @@
     "static/media/purple-header.svg": "/cryptocaps/static/media/purple-header.2983a35c91ba3aa2f2003d4d939db50d.svg",
     "static/media/dots_black.svg": "/cryptocaps/static/media/dots_black.95800ac6aefab88556b61627799e675f.svg",
     "static/media/dots_white.svg": "/cryptocaps/static/media/dots_white.3859b8036857ab45037f9a5e6e2c92bc.svg",
-    "main.739670c5.css.map": "/cryptocaps/static/css/main.739670c5.css.map",
-    "main.7ae9484e.js.map": "/cryptocaps/static/js/main.7ae9484e.js.map",
+    "main.99f64d61.css.map": "/cryptocaps/static/css/main.99f64d61.css.map",
+    "main.277f4109.js.map": "/cryptocaps/static/js/main.277f4109.js.map",
     "787.ac7632ef.chunk.js.map": "/cryptocaps/static/js/787.ac7632ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.739670c5.css",
-    "static/js/main.7ae9484e.js"
+    "static/css/main.99f64d61.css",
+    "static/js/main.277f4109.js"
   ]
 }
